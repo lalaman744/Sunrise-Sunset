@@ -14,6 +14,8 @@
 		B858303C225BB815000C5D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B858303A225BB815000C5D02 /* LaunchScreen.storyboard */; };
 		B8583047225BB815000C5D02 /* Sunrise_SunsetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8583046225BB815000C5D02 /* Sunrise_SunsetTests.swift */; };
 		B8583052225BB815000C5D02 /* Sunrise_SunsetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8583051225BB815000C5D02 /* Sunrise_SunsetUITests.swift */; };
+		B8583060225BB906000C5D02 /* SunTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858305F225BB906000C5D02 /* SunTimes.swift */; };
+		B8583062225BB973000C5D02 /* SunTimesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8583061225BB973000C5D02 /* SunTimesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B858304D225BB815000C5D02 /* Sunrise SunsetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunrise SunsetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8583051225BB815000C5D02 /* Sunrise_SunsetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunrise_SunsetUITests.swift; sourceTree = "<group>"; };
 		B8583053225BB815000C5D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B858305F225BB906000C5D02 /* SunTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimes.swift; sourceTree = "<group>"; };
+		B8583061225BB973000C5D02 /* SunTimesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				B8583031225BB814000C5D02 /* AppDelegate.swift */,
 				B8583033225BB814000C5D02 /* ViewController.swift */,
+				B858305F225BB906000C5D02 /* SunTimes.swift */,
+				B8583061225BB973000C5D02 /* SunTimesService.swift */,
 				B8583035225BB814000C5D02 /* Main.storyboard */,
 				B8583038225BB815000C5D02 /* Assets.xcassets */,
 				B858303A225BB815000C5D02 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8583034225BB814000C5D02 /* ViewController.swift in Sources */,
+				B8583062225BB973000C5D02 /* SunTimesService.swift in Sources */,
+				B8583060225BB906000C5D02 /* SunTimes.swift in Sources */,
 				B8583032225BB814000C5D02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
