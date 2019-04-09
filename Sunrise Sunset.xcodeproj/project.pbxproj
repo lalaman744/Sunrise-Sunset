@@ -16,6 +16,8 @@
 		B8583052225BB815000C5D02 /* Sunrise_SunsetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8583051225BB815000C5D02 /* Sunrise_SunsetUITests.swift */; };
 		B8583060225BB906000C5D02 /* SunTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858305F225BB906000C5D02 /* SunTimes.swift */; };
 		B8583062225BB973000C5D02 /* SunTimesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8583061225BB973000C5D02 /* SunTimesService.swift */; };
+		B8583065225D123D000C5D02 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8583064225D123D000C5D02 /* MapKit.framework */; };
+		B8583067225D1A3B000C5D02 /* SunTimeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8583066225D1A3B000C5D02 /* SunTimeDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B8583053225BB815000C5D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B858305F225BB906000C5D02 /* SunTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimes.swift; sourceTree = "<group>"; };
 		B8583061225BB973000C5D02 /* SunTimesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimesService.swift; sourceTree = "<group>"; };
+		B8583064225D123D000C5D02 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B8583066225D1A3B000C5D02 /* SunTimeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimeDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8583065225D123D000C5D02 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,7 @@
 				B8583045225BB815000C5D02 /* Sunrise SunsetTests */,
 				B8583050225BB815000C5D02 /* Sunrise SunsetUITests */,
 				B858302F225BB814000C5D02 /* Products */,
+				B8583063225D123D000C5D02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +111,7 @@
 				B8583033225BB814000C5D02 /* ViewController.swift */,
 				B858305F225BB906000C5D02 /* SunTimes.swift */,
 				B8583061225BB973000C5D02 /* SunTimesService.swift */,
+				B8583066225D1A3B000C5D02 /* SunTimeDelegate.swift */,
 				B8583035225BB814000C5D02 /* Main.storyboard */,
 				B8583038225BB815000C5D02 /* Assets.xcassets */,
 				B858303A225BB815000C5D02 /* LaunchScreen.storyboard */,
@@ -129,6 +136,14 @@
 				B8583053225BB815000C5D02 /* Info.plist */,
 			);
 			path = "Sunrise SunsetUITests";
+			sourceTree = "<group>";
+		};
+		B8583063225D123D000C5D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8583064225D123D000C5D02 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +279,7 @@
 			files = (
 				B8583034225BB814000C5D02 /* ViewController.swift in Sources */,
 				B8583062225BB973000C5D02 /* SunTimesService.swift in Sources */,
+				B8583067225D1A3B000C5D02 /* SunTimeDelegate.swift in Sources */,
 				B8583060225BB906000C5D02 /* SunTimes.swift in Sources */,
 				B8583032225BB814000C5D02 /* AppDelegate.swift in Sources */,
 			);
